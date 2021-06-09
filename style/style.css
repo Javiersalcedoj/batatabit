@@ -81,7 +81,7 @@ header img {
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url("/assets/icons/down-arrow.svg");
+    background-image: url("/batatabit/assets/icons/down-arrow.svg");
 }
 
 /* main */
@@ -109,7 +109,7 @@ main {
     height: 200px;
     margin: 0 auto;
     margin-bottom: 50px;
-    background-image: url("/batatabit/assets/imgs/bitcoin.svg");
+    background-image: url("/batatabit/assets/imgs/bitcoin.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -442,7 +442,7 @@ main {
 .plans-container--card {
     position: relative;
     width: 70%;
-    max-width: 190px;
+    max-width: 300px;
     height: 250px;
     margin: 20px 5px 0; 
     padding: 0 15px;
@@ -514,7 +514,7 @@ main {
 
 .plans-container--slider {
     display: flex;
-    justify-content: center;
+    padding-bottom: 10px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
@@ -555,6 +555,10 @@ footer .left ul {
 .left a {
     text-decoration: none;
     color: var(--just-write);
+}
+footer .rigth img {
+    width: 64px;
+    height: 50px;
 }
 /* 
 1. Posicionamiento --> static, absolute, relative, fixed
