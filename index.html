@@ -23,8 +23,8 @@
             <section class="main-exchange-container">
                <div class="backgroundImg"></div>
                <div class="main-exchange-container--title">
-                   <h2>Visibilizamos todas las tasas de cambio.</h2>
-                    <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
+                   <h2>Visibilizamos todas las tipos de cambio.</h2>
+                    <p>Traemos información en tiempo real de cada una de las criptomonedas más importantes del mundo.</p>
                 </div>
                <section class="main-tables-container">
                    <div class="main-currency-table">
@@ -33,52 +33,26 @@
                             <table>
                                 <tr>
                                     <td class="table__top-left">Bitcoin</td>
-                                    <td class="table__top-rigth table__rigth">$ 1.96 <span class="down"></span></td>
+                                    <td class="table__top-rigth table__rigth" id="pBTC"><span class="down"></span></td>
                                 </tr>
                                 <tr>
                                     <td>Ethereum</td>
-                                    <td class="table__rigth">$ 0.07 <span class="up"></span></td>
+                                    <td class="table__rigth" id="pETH"><span class="up"></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Ripple</td>
-                                    <td class="table__rigth">$ 2.15 <span class="down"></span></td>
+                                    <td>Binance Coin</td>
+                                    <td class="table__rigth" id="pBNB"><span class="down"></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="table__botton-left">Stellar</td>
-                                    <td class="table__botton-rigth table__rigth">$ 4.96 <span class="down"></span></td>
+                                    <td class="table__botton-left">Litecoin</td>
+                                    <td class="table__botton-rigth table__rigth" id="pLTC"><span class="down"></span></td>
                                 </tr>
                             </table>
                         </div>
                         <div class="currency-table--date">
-                            <p><b>Actualizado:</b> 19 Julio 23:45</p> 
+                            <p id="fecha"></p> 
                         </div>
                    </div>
-                   <div class="main-commission-table">
-                        <p class="main-commission-table--title">Comisiones</p>
-                        <div class="commission-table--container">
-                            <table>
-                                <tr>
-                                    <td class="table__top-left">Bitrade</td>
-                                    <td class="table__top-rigth table__rigth">$ 12.96</td>
-                                </tr>
-                                <tr>
-                                    <td>Bitpreco</td>
-                                    <td class="table__rigth">$ 13.07</td>
-                                </tr>
-                                <tr>
-                                    <td>Novadax</td>
-                                    <td class="table__rigth">$ 13.15</td>
-                                </tr>
-                                <tr>
-                                    <td class="table__botton-left">Coinext</td>
-                                    <td class="table__botton-rigth table__rigth">$ 14.96</td>
-                                </tr>
-                            </table>
-                        </div>
-                        <div class="commission-table--date">
-                            <p><b>Actualizado:</b> 19 Julio 23:48</p> 
-                        </div>
-                    </div>
                 </section>
             </section>
             <section class="main-product-detail">
@@ -159,5 +133,6 @@
                 <img src="./assets/imgs/logo-footer.svg" alt="logo batatabit">
             </section>
         </footer>
+        <script src="./index.js" type="module"></script>
     </body>
 </html>
