@@ -181,26 +181,6 @@ main {
     line-height: 1.7rem;
     color: #757575;
 }
-.currency-table--container .down {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-left: 10px;
-    background-image: url("/batatabit/assets/icons/trending-down.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.currency-table--container .up {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-left: 10px;
-    background-image: url("/batatabit/assets/icons/trending-up.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 .currency-table--date {
     width: 90%;
     max-width: 190px;
