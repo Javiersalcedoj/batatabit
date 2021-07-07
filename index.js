@@ -46,7 +46,7 @@ fetch (API_URL)
 
 // consultar hora
 
-function mesletra () {
+function mesLetra () {
     switch (true) {
         case mesIndexado == 0:
             return "Enero"
