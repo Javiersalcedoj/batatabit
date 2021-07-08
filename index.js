@@ -1,4 +1,4 @@
-// consultar a la api el precio de las cryptomonedas
+// consultar a la api el precio de las diferentes cryptomonedas
 const API_URL = "https://api.binance.com/api/v3/ticker/price";
 
 fetch (API_URL)
@@ -46,7 +46,7 @@ fetch (API_URL)
 
 // consultar hora
 
-function mesLetra () {
+function mesLetra() {
     switch (true) {
         case mesIndexado == 0:
             return "Enero"
