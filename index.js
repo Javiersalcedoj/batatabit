@@ -90,7 +90,7 @@ function mesLetra () {
 const date = new Date();
 const dia = date.getDate ();
 const mesIndexado = date.getMonth ();
-const mes = mesletra();
+const mes = mesLetra();
 const hora = date.getHours();
 const minutos = date.getMinutes();
 
